@@ -15,11 +15,13 @@ export class Satellite {
         this.orbitType = orbitType;
         this.operational = operational;
     }
+    
 
-    shouldShowWarning () {
+    shouldShowWarning() {
         if (this.type.toUpperCase() === "SPACE DEBRIS") {
             return true;
         }
         
     }
 }
+
