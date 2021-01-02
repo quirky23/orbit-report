@@ -9,6 +9,7 @@
 
 table {
   color: #111;
+
   border-radius: 5px;
   overflow: hidden;
   margin: 12px 0;
@@ -30,4 +31,8 @@ td {
 
 tr {
   vertical-align: inherit;
+}
+
+tr:nth-child(even) {
+  background-color: aquamarine;
 }
